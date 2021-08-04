@@ -1,5 +1,6 @@
 import Chakshan.Example;
 import Varun.Test;
+import Ujjawal.Practice;
 
 public class Main {
     
@@ -12,5 +13,11 @@ public class Main {
         test.printAdd();
         test.printMax();
         test.printMin();
+
+        Practice practice = new Practice(3, 8);
+        practice.printMultiply();
+        practice.printDivide();
+        practice.printAdd();
+        practice.printSubtract();
     }
 }
