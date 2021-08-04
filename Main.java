@@ -15,9 +15,10 @@ public class Main {
         test.printMin();
 
         Practice practice = new Practice(3, 8);
-        practice.printMultiply();
-        practice.printDivide();
         practice.printAdd();
         practice.printSubtract();
+        practice.printMultiply();
+        practice.printDivide();
+
     }
 }

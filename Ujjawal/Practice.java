@@ -15,7 +15,7 @@ public class Practice {
     }
 
     public void printMultiply() {
-      System.out.println(num_1 + "multiplied by " + num_2 + "is equal to" + multiply());
+      System.out.println(num_1 + " x " + num_2 + " = " + multiply());
     }
 
     private int divide() {
@@ -23,7 +23,7 @@ public class Practice {
     }
 
     public void printDivide() {
-        System.out.println(num_1 + "divided by " + num_2 + "is equal to" + divide());
+        System.out.println(num_1 + " / " + num_2 + " =" + divide());
     }
  
     private int add() {
