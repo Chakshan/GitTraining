@@ -2,6 +2,7 @@ import Chakshan.Example;
 import Varun.Test;
 import Ujjawal.Practice;
 import Saransh.Testing;
+import Siddarth.Challenge;
 
 public class Main {
     
@@ -24,6 +25,12 @@ public class Main {
         Testing testing = new Testing(3, 2);
         testing.myHomework();
         testing.myTime();
+
+        Challenge challenge1 = new Challenge(15,0);
+        challenge1.Calculate();
+
+        Challenge challenge2 = new Challenge(15,5);
+        challenge2.Calculate();
 
     }
 }
