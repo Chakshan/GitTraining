@@ -1,6 +1,7 @@
 import Chakshan.Example;
 import Varun.Test;
 import Ujjawal.Practice;
+import Siddarth.Challenge;
 
 public class Main {
     
@@ -19,6 +20,12 @@ public class Main {
         practice.printSubtract();
         practice.printMultiply();
         practice.printDivide();
+
+        Challenge challenge1 = new Challenge(15,0);
+        challenge1.Calculate();
+
+        Challenge challenge2 = new Challenge(15,5);
+        challenge2.Calculate();
 
     }
 }
