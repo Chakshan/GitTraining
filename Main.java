@@ -1,5 +1,6 @@
 import Chakshan.Example;
 import Example.Cool;
+import Karthik.Car;
 import Varun.Test;
 import Ujjawal.Practice;
 import Saransh.Testing;
@@ -36,6 +37,11 @@ public class Main {
         Cool cool = new Cool(8, "Epic");
         cool.printCoolNumber();
         cool.printCoolString();
+
+        Car car = new Car("Toyota","Corolla",2020, false);
+        car.printMyCar();
+        System.out.println("Car:"+car.getCarName());
+        System.out.println("Age of Car:"+car.ageOfCar());
 
     }
 }
