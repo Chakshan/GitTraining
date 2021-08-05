@@ -1,4 +1,5 @@
 import Chakshan.Example;
+import Example.Cool;
 import Varun.Test;
 import Ujjawal.Practice;
 import Saransh.Testing;
@@ -31,6 +32,10 @@ public class Main {
 
         Challenge challenge2 = new Challenge(15,5);
         challenge2.Calculate();
+
+        Cool cool = new Cool(8, "Epic");
+        cool.printCoolNumber();
+        cool.printCoolString();
 
     }
 }
