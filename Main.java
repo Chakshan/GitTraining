@@ -43,5 +43,8 @@ public class Main {
         System.out.println("Car:"+car.getCarName());
         System.out.println("Age of Car:"+car.ageOfCar());
 
+        Schedule schedule = new Schedule(12365, 11, "Bill");
+        schedule.numOfCourses();
+        schedule.getClassSchedule();
     }
 }
