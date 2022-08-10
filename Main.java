@@ -1,3 +1,4 @@
+import Anila.Schedule;
 import Chakshan.Example;
 import Example.Cool;
 import Karthik.Car;
@@ -44,7 +45,7 @@ public class Main {
         System.out.println("Age of Car:"+car.ageOfCar());
 
         Schedule schedule = new Schedule(12365, 11, "Bill");
-        schedule.numOfCourses();
-        schedule.getClassSchedule();
+        System.out.println(schedule.numOfCourses());
+        System.out.println(schedule.getClassSchedule());
     }
 }
