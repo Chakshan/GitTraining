@@ -1,3 +1,4 @@
+import Alejandro.Alex;
 import Anila.Schedule;
 import Chakshan.Example;
 import Example.Cool;
@@ -47,5 +48,12 @@ public class Main {
         Schedule schedule = new Schedule(12365, 11, "Bill");
         System.out.println(schedule.numOfCourses());
         System.out.println(schedule.getClassSchedule());
+
+        Alex alex = new Alex(15, "911");
+        alex.getTask();
+        alex.getPhone();
+        alex.setPhone("510-999-9999");
+        alex.getPhone();
+        alex.call();
     }
 }
