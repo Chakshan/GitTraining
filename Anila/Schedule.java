@@ -1,5 +1,8 @@
 package Anila;
 
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class Schedule{
     private int studentID;
     private int grade;
@@ -27,7 +30,7 @@ public class Schedule{
     
     public ArrayList<String> getClassSchedule(){
         Scanner input = new Scanner(System.in);
-        ArrayList<String> listOfClasses = new ArrayList<String>;
+        ArrayList<String> listOfClasses = new <String>ArrayList();
         int counter = 0;
         while(counter < 5){
             System.out.print("Request a class: ");
