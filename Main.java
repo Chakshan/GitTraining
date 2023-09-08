@@ -5,6 +5,7 @@ import Varun.Test;
 import Ujjawal.Practice;
 import Saransh.Testing;
 import Siddarth.Challenge;
+import Avik.Country;
 
 public class Main {
     
@@ -46,5 +47,9 @@ public class Main {
         Schedule schedule = new Schedule(12365, 11, "Bill");
         schedule.numOfCourses();
         schedule.getClassSchedule();
+
+        Country usa = new Country("United States", "Washington D.C.");
+        usa.printName();
+        usa.printCapital();
     }
 }
